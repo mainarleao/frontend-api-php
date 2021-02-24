@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+
+*{
+padding: 0;
+margin: 0;
+}
+
+.conteudo{
+  width: 60%;
+  margin-left: 50px;
+  padding: 10px;
+  background-color: rgb(0,0,0,0.2);
+  color: #fff;
+}
+
+.conteudo h1{
+  font-size: 50px;
+  text-shadow: 2px 2px 2px #000;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: 'Akaya Kanadaka', cursive;
+}
+
+.conteudo p{
+  text-shadow: 2px 2px 2px #000;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.conteudo label{
+  display: block;
+  color: #000;
+  text-align: left;
+  margin-left: 30%;
+}
+
+.conteudo input{
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.conteudo input[type=submit] {
+  font-size: 15px;
+  width: 40%;
+  background-color: #4dd0e1;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.conteudo input[type=submit]:hover {
+  font-size: bold;
+  background-color: #26c6da;
+}

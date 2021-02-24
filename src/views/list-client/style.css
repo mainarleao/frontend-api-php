@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+
+*{
+padding: 0;
+margin: 0;
+}
+
+.conteudo-list{
+  width: 60%;
+  margin-left: 50px;
+  padding: 10px;
+  background-color: rgb(0,0,0,0.2);
+  color: #fff;
+}
+
+.conteudo-list h1{
+  font-size: 50px;
+  text-shadow: 2px 2px 2px #000;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: 'Akaya Kanadaka', cursive;
+}
+
+.client-list article{
+  margin-top: 20px;
+  line-height: 1.5;
+  border-bottom: 1px solid #616161;
+}
+
+.link {
+  width: 40%;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #000;
+}
+.link:hover {
+  font-weight: 500;
+}
+
+.conteudo-list input[type=submit]:hover {
+  font-size: bold;
+  background-color: #26c6da;
+}
+
+.quantidade{
+  margin-top: 30px;
+}

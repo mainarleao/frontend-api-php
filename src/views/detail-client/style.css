@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+
+*{
+padding: 0;
+margin: 0;
+}
+
+.detail-client{
+  width: 60%;
+  margin-left: 50px;
+  padding: 10px;
+  background-color: rgb(0,0,0,0.2);
+  color: #fff;
+}
+
+.detail-client h1{
+  font-size: 50px;
+  text-shadow: 2px 2px 2px #000;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-family: 'Akaya Kanadaka', cursive;
+}
+
+.detail-client h2{
+  color: #000;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 2px #000;
+  color: #fff;
+}
+
+.detail-client p{
+  width: 40%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  color: #000;
+  border-bottom: 1px solid #616161;
+  line-height: 1.5;
+  text-align: left;
+}
+.detail-client label{
+  display: block;
+  color: #000;
+  text-align: left;
+  margin-left: 30%;
+}
+
+.detail-client input{
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.detail-client button {
+  font-size: 15px;
+  width: 40%;
+  margin: 0 auto;
+  background-color: #4dd0e1;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.detail-client button:hover {
+  font-size: bold;
+  background-color: #26c6da;
+}
+
+.detail-client input[type=submit] {
+  font-size: 15px;
+  width: 40%;
+  background-color: #4dd0e1;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.detail-client input[type=submit]:hover {
+  font-size: bold;
+  background-color: #26c6da;
+}
